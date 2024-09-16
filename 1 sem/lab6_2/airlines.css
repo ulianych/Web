@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.add {
+    background: url("source/aviasales.png") bottom repeat-x;
+    background-size: 40px auto;
+}
+
+.heading {
+    width: 100%;
+    background-color: #2c416c;
+}
+  
+.buttons {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+  
+.buttons input[type="button"] {
+    width: 20%;
+    min-width: 150px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #62b8f0;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.buttons input[type="button"]:hover {
+    background-color: #389bff;
+}
+  
+@media (max-width: 600px) {
+    .buttons {
+      flex-direction: column;
+    }
+  
+    .buttons input[type="button"] {
+      margin: 10px auto;
+    }
+  }

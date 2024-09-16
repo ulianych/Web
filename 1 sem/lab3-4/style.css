@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(2, 50, 135);
+}
+
+.navigation {
+    background-color: rgb(93, 93, 251);
+}
+
+.main {
+    padding: 20px;
+    flex: 1;
+}
+
+p {
+    padding-right: 50px;
+}
+
+.backgr {
+    background: url("source/aviasales.png") right top repeat-y;
+    background-size: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer {
+    padding: 5px;
+    clear: both;
+    background-color: blueviolet;
+}
+
+.image {
+    width: 500px;
+    margin: 1%;
+    height: auto;
+    float: left;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}s
+  
+ul {
+    list-style-type: none;
+}
+  
+ul li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+  
+ul li a {
+    color: #fff;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+  
+ul li a:hover {
+    text-decoration: underline;
+}
+
+li {
+    margin: auto 0;
+}
+
+@media (max-width: 760px) {
+    .backgr {
+      flex-direction: column;
+    }
+  
+    .navigation {
+      width: 100%;
+      order: 2;
+    }
+    .main {
+        order: 1;
+        width: 100%;
+        margin: 0;
+    }
+    .image {
+        width: 80%;
+    }
+
+    .list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+  }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Рейсы</title>
+        <style>
+            table {
+                margin: auto;
+                width: 70%;
+                border-collapse: collapse;
+            }
+        
+            th, td {
+                padding: 8px;
+                text-align: left;
+                border: 1px solid #ddd;
+            }
+        
+            th {
+                background-color: #f2f2f2;
+            }
+          </style>
+    </head>
+    <body>
+        <table>
+            <caption style="
+            font-family: 'Roboto', sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+            color: #333333;">Рейсы</caption>
+            <col><col><col style='background-color: rgb(102, 236, 202)'>
+            <tr>
+                <th>Рейс</th>
+                <th>Информация</th>
+                <th>Статус</th>
+            </tr>
+            <tr>
+                <td>AA123</td>
+                <td rowspan="2">Вылет задерживается</td>
+                <td>Ожидает</td>
+            </tr>
+            <tr>
+                <td>BB456</td>
+                <td>Подготовка</td>
+            </tr>
+            <tr>
+                <td>CC789</td>
+                <td>Вылетел</td>
+                <td>Успешно</td>
+            </tr>
+        </table>
+    </body>
+</html>

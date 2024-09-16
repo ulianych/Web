@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Авиакомпании SPA</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Авиакомпании</h1>
+        <div id="APage"></div>
+
+        <div class="button-container">
+            <input class="button" type=button value='Главная' onclick='switchToMainPage()'>
+            <input class="button" type=button value='О нас' onclick='switchToAboutPage()'>
+        </div>
+
+        <script>
+            switchToStateFromURLHash();
+        </script>          
+    </body>
+</html>

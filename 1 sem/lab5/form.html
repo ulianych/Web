@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>Form</title>
+    </head>
+    <body>
+        <form name="fly_form"></form>
+
+        <script>
+            var formArray = [
+                { label: 'First name:', elemtype: 'textline', name: 'firstname', width: 200, placeholder: "Bob"},
+                { label: 'Last name:', elemtype: 'textline', name: 'lastname', width: 200, placeholder: "Smith"},
+                { label: 'Destination:', elemtype: 'textline', name: 'destination', width: 200, placeholder: "New-York"},
+                { label: 'Trip type:', elemtype: 'radio', name: 'trip_type', options: ['One way trip', 'Round trip'] },
+                { label: 'Luggage:', elemtype: 'check', name: 'luggage' },
+                { label: 'Order:', elemtype: 'button', type: 'submit', value: "Submit"}
+            ];
+        
+            createFormFields(formArray, 'fly_form');
+        </script>
+    </body>
+</html>

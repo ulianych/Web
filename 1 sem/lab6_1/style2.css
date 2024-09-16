@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(2, 50, 135);
+}
+
+.navigation {
+    width: 200px;
+    float: left;
+    background-color: rgb(93, 93, 251);
+}
+
+.main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+p {
+    margin: 20px;
+}
+
+.backgr {
+    background: url("source/aviasales.png") right top repeat-y;
+    background-size: 40px auto;
+}
+
+.main-content {
+    background: url("source/back.png") left top repeat-y;
+    background-size: 250px auto;
+}
+
+.footer {
+    padding: 5px;
+    clear: both;
+    background-color: blueviolet;
+}
+
+.image {
+    width: 100%;
+    margin: 1%;
+    float: left;
+    max-width: 400px;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}s
+  
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+  
+ul li {
+    margin-bottom: 10px;
+}
+  
+ul li a {
+    color: #fff;
+    padding: 20px;
+}
+  
+ul li a:hover {
+    text-decoration: underline;
+}

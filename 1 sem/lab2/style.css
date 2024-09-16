@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+h1 {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+td {
+    padding: 20px;
+}
+  
+.image {
+    width: 100%;
+    margin: 1%;
+    float: left;
+    max-width: 400px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+ul li {
+    margin-bottom: 10px;
+}
+  
+ul li a {
+    color: #fff;
+}
+  
+ul li a:hover {
+    text-decoration: underline;
+}
